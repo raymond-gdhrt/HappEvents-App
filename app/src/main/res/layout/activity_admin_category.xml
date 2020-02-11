@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/dresses"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/weddingdress3" />
+
+        <ImageView
+            android:id="@+id/suits"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mensuit1" />
+
+        <ImageView
+            android:id="@+id/shoes"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/weddingshoes2" />
+
+        <ImageView
+            android:id="@+id/rings"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ring" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="@drawable/input_design"
+        >
+
+        <TextView
+            android:id="@+id/linear2_text1"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="Dresses"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:id="@+id/linear2_text2"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Suits"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/linear2_text3"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:text="shoes"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/linear2_text4"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Rings"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="22dp"
+            android:gravity="center"
+
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/linear2_text_view"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+
+
+        >
+
+
+
+        <ImageView
+            android:id="@+id/cakes"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/weddingcake"
+            />
+
+        <ImageView
+            android:id="@+id/catering"
+            android:layout_width="94dp"
+            android:layout_height="80dp"
+            android:src="@drawable/catering1"
+            />
+
+        <ImageView
+            android:id="@+id/decoration"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/weddingdecoration2"
+            />
+
+        <ImageView
+            android:id="@+id/tents"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/weddingtents2"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear1_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="@drawable/input_design"
+
+        >
+
+
+        <TextView
+            android:id="@+id/linear1_text2"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Cakes"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/linear1_text1"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="Catering"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/linear1_text3"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:text="Decoration"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/linear1_text4"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Tents"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="22dp"
+            android:gravity="center"
+
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/linear1_text_view"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        >
+
+        <ImageView
+            android:id="@+id/venue"
+            android:layout_width="94dp"
+            android:layout_height="80dp"
+            android:src="@drawable/venues7"
+            />
+
+        <ImageView
+            android:id="@+id/speakers"
+            android:layout_width="99dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/weddingspeakers1"
+            />
+
+        <ImageView
+            android:id="@+id/video"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ushers4"
+
+            />
+
+        <ImageView
+            android:id="@+id/hair"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/saloon"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linear3_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="@drawable/input_design"
+        android:layout_marginBottom="15dp"
+
+        >
+
+        <TextView
+            android:id="@+id/linear3_text1"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="Veunes"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center"
+
+
+            />
+        <TextView
+            android:id="@+id/linear3_text2"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Speakers"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/linear3_text3"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:text="Ushers"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/linear3_text4"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Saloon"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="22dp"
+            android:gravity="center"
+
+            android:textStyle="bold"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

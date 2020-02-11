@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "26756260878",
+    "firebase_url": "https://happ-a314a.firebaseio.com",
+    "project_id": "happ-a314a",
+    "storage_bucket": "happ-a314a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26756260878:android:6eb997a65cde4f2338485f",
+        "android_client_info": {
+          "package_name": "com.example.happevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26756260878-rnlk8ibpcqc0r8tcq3r88h1blcj023fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.happevents",
+            "certificate_hash": "cb589b4f2d7e383a346fa6f01ce0918a72bec001"
+          }
+        },
+        {
+          "client_id": "26756260878-albjltuivohklgp48n2r79ltaltv16rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD38DyxrOWZSyecuTlIwf22CDaKx5zv1js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26756260878-albjltuivohklgp48n2r79ltaltv16rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
